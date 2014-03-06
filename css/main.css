@@ -1,0 +1,116 @@
+#title{
+	font-family: 'Petit Formal Script', cursive;
+	font-size: 65px;
+	margin:10px;
+}
+		
+#box0{background:url('../img/1_tumb.png')}
+#box1{background:url('../img/2_tumb.png')}
+#box2{background:url('../img/3_tumb.png')}
+#box3{background:url('../img/4_tumb.png')}
+#box4{background:url('../img/5_tumb.png')}
+#box5{background:url('../img/1_tumb.png')}
+#box6{background:url('../img/2_tumb.png')}
+#box7{background:url('../img/3_tumb.png')}
+#box8{background:url('../img/4_tumb.png')}
+#box9{background:url('../img/5_tumb.png')}
+#box10{background:url('../img/1_tumb.png')}
+#box11{background:url('../img/2_tumb.png')}
+		
+#main{
+	margin-left: auto ;
+	margin-right: auto ;
+	max-width: 1120px;
+	min-width: 896px;
+}
+
+#categories{
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	border-radius: 15px;
+	border-style:solid;
+	border-width:2px;
+	overflow: auto;
+}
+
+.category{
+	font-family: 'Petit Formal Script', cursive;
+	padding: 10px;
+	font-size: 18px;
+	color: White;
+	background-color: black;
+	position:relative;
+	float: left;
+	width: 170px;
+	height: 20px;
+	margin: 12px;
+	border-radius: 15px;
+	border-style:solid;
+	border-width:2px;
+	border-bottom-right-radius: 12px;
+	border-bottom-left-radius: 12px;
+	text-align:center
+}
+
+.category:hover {
+	color: black;
+	background-color: white;
+}
+
+.box{
+	position:relative;
+	float: left;
+	width: 200px;
+	height: 200px;
+	margin: 10px;
+	border-radius: 15px;
+	border-style:solid;
+	border-width:2px;
+}
+		
+.box_text{
+	font-family: 'Petit Formal Script', cursive;
+	font-size: 18px;
+	color: White;
+	background-color: black;
+	position:absolute;
+	bottom:0px;
+	left:0px;
+	width: 190px;
+	padding:5px;
+	border-bottom-right-radius: 12px;
+	border-bottom-left-radius: 12px;
+	text-align:center
+}
+		
+.info{
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	padding: 20px;
+	border-radius: 15px;
+	border-style:solid;
+	border-width:2px;
+}
+		
+.info_title{
+	font-family: 'Petit Formal Script', cursive;
+	font-size: 25px;
+	margin:12px;
+}
+		
+.info_text{
+	font-size: 18px;
+	margin-top:20px;
+	margin-bottom:20px;
+}
+		
+.center{
+	margin-left: auto ;
+	margin-right: auto ;
+	width: 800px;
+}
+		
+.overlay {position:absolute;top:0;left:0;width:200px;height:200px;background:#fff;opacity:0;border-radius: 15px;}
+.box:hover .overlay{ opacity:0.5;}
